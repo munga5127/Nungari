@@ -68,7 +68,7 @@ yesBtn.addEventListener('click', () => {
         yesClickedTimes++;
     } else {
         // Final Win when yes sequence is fully completed
-        questionText.innerHTML = "I knew you always liked me. 💖💍";
+        questionText.innerHTML = "thanks for helping in my coding project.";
         subText.innerHTML = "Best decision ever made.";
         heroImage.src = catImages.normal;
         yesBtn.style.display = 'none';
