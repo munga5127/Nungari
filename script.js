@@ -4,8 +4,8 @@ const questionText = document.getElementById('questionText');
 const subText = document.getElementById('subText');
 const heroImage = document.querySelector('.hero-image');
 
-// Setup Audio. Windows hid the extension, so the file name is actually `music.mp3.mp3`!
-const bgMusic = new Audio('music.mp3.mp3');
+// Setup Audio safely via the HTML element to guarantee it plays on all mobile phones!
+const bgMusic = document.getElementById('bgMusic');
 bgMusic.loop = true;
 let musicStarted = false;
 

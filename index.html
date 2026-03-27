@@ -26,7 +26,12 @@
         </div>
     </div>
 
-    <!-- Music logic is handled via script. Ensure you have a 'music.mp3' file in the directory. -->
+    <!-- Music logic uses an audio block to combat strict phone browsers -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="music.mp3.mp3" type="audio/mpeg">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
     <script src="script.js"></script>
 </body>
 </html>
