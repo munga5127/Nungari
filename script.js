@@ -105,7 +105,7 @@ noBtn.addEventListener('click', () => {
         
     } else {
         // Exhausted NO clicks completely
-        questionText.innerHTML = "I knew you always liked me. 💖💍";
+        questionText.innerHTML = "Thank you for assisting in my coding project";
         subText.innerHTML = "Resistance was futile. 🥰";
         heroImage.src = catImages.normal;
         yesBtn.style.display = 'none';
